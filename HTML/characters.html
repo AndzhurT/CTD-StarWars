@@ -1,0 +1,42 @@
+<!-- characters page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/charactersStyle.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/HTML/starwars.html">Home</a></li>
+          <li><a href="/HTML/characters.html">Characters</a></li>
+          <li><a href="/HTML/planets.html">Planets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <h1>Characters</h1>
+        <ul id="names"></ul>
+      </div>
+      <!-- A detailed character information -->
+      <div id="people" class="people">
+        <div class="people-content">
+          <span class="close">&times;</span>
+          <h1 id="people-name"></h1>
+          <p>Height: <span id="people-height"></span></p>
+          <p>Mass: <span id="people-mass"></span></p>
+          <p>Hair color: <span id="people-hair-color"></span></p>
+          <p>Skin color: <span id="people-skin-color"></span></p>
+          <p>Eye color: <span id="people-eye-color"></span></p>
+          <p>Gender: <span id="people-gender"></span></p>
+          <p>Birth year: <span id="people-birth-year"></span></p>
+          <p>Homeworld: <span id="people-homeworld"></span></p>
+        </div>
+      </div>
+      <script src="/JS/fetchCharacters.js"></script>
+    </main>
+  </body>
+</html>

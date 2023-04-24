@@ -1,0 +1,42 @@
+<!-- planets page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Planets</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/planetsStyle.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/HTML/starwars.html">Home</a></li>
+          <li><a href="/HTML/characters.html">Characters</a></li>
+          <li><a href="/HTML/planets.html">Planets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <h1>Planets</h1>
+        <ul id="names"></ul>
+      </div>
+      <!-- A detailed planet information -->
+      <div id="planet" class="planet">
+        <div class="planet-content">
+          <span class="close">&times;</span>
+          <h1 id="planet-name"></h1>
+          <p>Rotation Period: <span id="planet-rotation-period"></span></p>
+          <p>Orbital Period: <span id="planet-orbital-period"></span></p>
+          <p>Diameter: <span id="planet-diameter"></span></p>
+          <p>Climate: <span id="planet-climate"></span></p>
+          <p>Gravity: <span id="planet-gravity"></span></p>
+          <p>Terrain: <span id="planet-terrain"></span></p>
+          <p>Surface Water: <span id="planet-surface-water"></span></p>
+          <p>Population: <span id="planet-population"></span></p>
+        </div>
+      </div>
+      <script src="/JS/fetchPlanets.js"></script>
+    </main>
+  </body>
+</html>
