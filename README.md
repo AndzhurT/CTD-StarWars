@@ -14,3 +14,7 @@ To use the application, simply open the starwars.html(HTML/starwars.html) file i
 **Dependencies**
 ---
 The application requires an internet connection to fetch data from the Star Wars API. 
+
+**Additional Info**
+---
+If some features do not work, such as CSS styling of a page, JS functions, or the page does not open up when you click on it in the navigation bar, open all the files so it can load (including photos). After loading the files, you should be able to close files, and everything should work correctly.  
